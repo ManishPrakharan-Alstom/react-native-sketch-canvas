@@ -13,6 +13,7 @@ import ReactNative, {
   processColor
 } from 'react-native'
 import { requestPermissions } from './handlePermissions';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types'
 
 const RNSketchCanvas = requireNativeComponent('RNSketchCanvas', SketchCanvas, {
   nativeOnly: {
